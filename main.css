@@ -46,7 +46,6 @@
     padding: 20px;
     display: flex;
     align-items: center;
-
     background-color: var(--back-color);
 }
 
@@ -78,7 +77,7 @@
     color: var(--button);
 }
 
-.menu-button {
+#menu-button {
     height: 20px;
     width: 40px;
 }
@@ -167,6 +166,10 @@
     margin-top: 2rem;
 }
 
+.final-news {
+    margin-bottom: 6rem;
+}
+
 .final-articles {
     display: flex;
     margin-bottom: 2rem;
@@ -198,4 +201,8 @@
     flex-direction: column;
     text-align: start;
     justify-content: space-between;
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1440px) {
+    
 }
